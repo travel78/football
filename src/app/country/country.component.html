@@ -1,0 +1,9 @@
+<div class="box" *ngIf="currentCountry">
+  <div>
+    <h4>Country: {{currentCountry.name}}</h4>
+  </div>
+  <div>
+    <img [src]="currentCountry.flagUrl" alt="">
+  </div>
+
+</div>

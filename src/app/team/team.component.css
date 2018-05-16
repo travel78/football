@@ -1,0 +1,33 @@
+.box{
+  height: 300px;
+  width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+h4{
+  width: 50%;
+}
+.box > div{
+  display: flex;
+  align-items: center;
+}
+ select{
+   height: 35px;
+   padding-left: 15px;
+   border-radius: 8px;
+ }
+.star{
+  display: inline-block;
+  background: url("/assets/empty-star.png") no-repeat  center ;
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+}
+
+.gold-star{
+  background: url("/assets/Gold_Star.png") no-repeat  center ;
+  background-size: contain;
+
+}

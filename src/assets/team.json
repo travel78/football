@@ -1,0 +1,50 @@
+[
+  {
+    "teamName": "Karpaty Lviv",
+    "countyCode": "ua",
+    "rate": 3,
+    "inUefaLeague": false
+  },
+  {
+    "teamName": "Dynamo Kyiv",
+    "countyCode": "ua",
+    "rate": 4,
+    "inUefaLeague": false
+  },
+  {
+    "teamName": "Liverpool",
+    "countyCode": "gb",
+    "rate": 5,
+    "inUefaLeague": true
+  },
+  {
+    "teamName": "Real Madrid",
+    "countyCode": "es",
+    "rate": 5,
+    "inUefaLeague": true
+  },
+  {
+    "teamName": "Roma",
+    "countyCode": "it",
+    "rate": 5,
+    "inUefaLeague": true
+  },
+  {
+    "teamName": "Chelsea",
+    "countyCode": "gb",
+    "rate": 5,
+    "inUefaLeague": false
+  },
+  {
+    "teamName": "Bayern",
+    "countyCode": "de",
+    "rate": 5,
+    "inUefaLeague": true
+  },
+  {
+    "teamName": "Paris Saint-Germain",
+    "countyCode": "fr",
+    "rate": 4,
+    "inUefaLeague": false
+  }
+]

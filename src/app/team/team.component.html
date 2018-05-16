@@ -1,0 +1,25 @@
+<div class="box">
+  <div>
+    <h4>Team:</h4>
+    <select (change)="onSelect($event.target.value)">
+      <option selected hidden>Choose team</option>
+      <option *ngFor="let t of teams; let id=index" [value]="id">{{t.teamName}}</option>
+    </select>
+  </div>
+  <div>
+    <h4>Rate:</h4>
+    <div *ngIf="currentTeam">
+      <span class="star" [class.gold-star]="currentTeam.rate>0"></span>
+      <span class="star" [class.gold-star]="currentTeam.rate>1"></span>
+      <span class="star" [class.gold-star]="currentTeam.rate>2"></span>
+      <span class="star" [class.gold-star]="currentTeam.rate>3"></span>
+      <span class="star" [class.gold-star]="currentTeam.rate>4"></span>
+    </div>
+  </div>
+  <div>
+    <h4>Plays in UEFA:</h4>
+    <div *ngIf="currentTeam">
+      {{currentTeam.inUefaLeague? "yes":"no"}}
+    </div>
+  </div>
+</div>
